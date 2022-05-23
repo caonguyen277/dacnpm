@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #975f5f;
+    padding: 10px;
+  }
+.nav-bar-link{
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; 
+    background-color: #ab7171;  
+}
+.nav-bar-link li:hover{
+    cursor: pointer;
+    background-color: #975f5f;
+    transition: all .3s;
+}
+.nav-bar-link li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 20px;
+}
+img{
+    width: 100px;
+}
+.title-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-1 h4{
+    color: yellow;
+}
+.title-word{
+    margin: 0;
+    margin-left: 10px;
+}
+.img{
+    cursor: pointer;
+}

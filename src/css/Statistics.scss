@@ -1,0 +1,21 @@
+// red_theme.scss
+$base-font-size: 12px;
+$title-font-size: 1.3em;
+
+// override scss variable
+$primary-color-dark: #e64a19;
+$primary-color: #ff5722;
+$primary-color-light: #ffccbc;
+$primary-color-text: #ffffff;
+$accent-color: #ff5252;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #e4e4e4;
+$today-bg-color: #fff9c4;
+
+// import mixin 
+@import "../../node_modules/@y0c/react-datepicker/assets/styles/mixin";
+// import app scss
+// if you want other style customize 
+// app.scss copy & rewrite !
+@import "../../node_modules/@y0c/react-datepicker/assets/styles/app.scss";

@@ -1,0 +1,591 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Đông Cao",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/1999",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 201785701,
+      "passport": 29181724781,
+      "FamilyRegister": 12345,
+      "nationality": "Việt Nam",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lê Đình Hoà",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        },
+        {
+          "time": "2/4/2022",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/06/2000",
+      "age": 19,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 123124124,
+      "passport": 51245345234,
+      "FamilyRegister": 12345,
+      "phone": "010-692-6593 x09125",
+      "nationality": "Việt Nam",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Phạm Quý Báu",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        },
+        {
+          "time": "2/4/2022",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "20/01/1999",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Tày",
+      "CMND": 123123154,
+      "passport": 32423412441,
+      "FamilyRegister": 12345,
+      "phone": "1-463-123-4447",
+      "nationality": "Việt Nam",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Thái Trung Vĩnh",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        },
+        {
+          "time": "2/4/2022",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/1999",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 201785701,
+      "FamilyRegister": 12345,
+      "passport": 29181724781,
+      "phone": "493-170-9623 x156",
+      "nationality": "Việt Nam",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bùi Thành Lâm",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/1999",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 201785701,
+      "FamilyRegister": 12345,
+      "passport": 29181724781,
+      "phone": "(254)954-1289",
+      "nationality": "Việt Nam",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nguyễn Đông Cao",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/1999",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 2342343535,
+      "FamilyRegister": 5678,
+      "passport": 12412412545,
+      "phone": "1-477-935-8478 x6430",
+      "nationality": "Việt Nam",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Thái Trung Vĩnh",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099",
+        "geo": {
+          "lat": "24.8918",
+          "lng": "21.8984"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        },
+        {
+          "time": "2/4/2022",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/2000",
+      "age": 20,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 1242354646,
+      "passport": 291811124724781,
+      "FamilyRegister": 5678,
+      "phone": "210.067.6132",
+      "nationality": "Việt Nam",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nguyễn Viết Đạt",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/1999",
+      "age": 20,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 214512,
+      "passport": 35241341,
+      "FamilyRegister": 5678,
+      "phone": "586.493.6943 x140",
+      "nationality": "Việt Nam",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Bùi Thành Lâm",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109",
+        "geo": {
+          "lat": "24.6463",
+          "lng": "-168.8889"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/07/2002",
+      "age": 20,
+      "hometown": "Đà Nẵng",
+      "nation": "Kinh",
+      "CMND": 124235124,
+      "passport": 535112411,
+      "FamilyRegister": 5678,
+      "phone": "(775)976-6794 x41206",
+      "nationality": "Việt Nam",
+      "website": "conrad.com",
+      "company": {
+        "name": "Yost and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Lê Đình Hoà",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261",
+        "geo": {
+          "lat": "-38.2386",
+          "lng": "57.2232"
+        }
+      },
+      "criminal": [
+        {
+          "time": "1/2/2010",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        },
+        {
+          "time": "2/4/2022",
+          "type": "Phạt hành chính",
+          "reason": "Đánh bạc"
+        }
+      ],
+      "birthday": "27/02/2002",
+      "age": 23,
+      "hometown": "Đà Nẵng",
+      "nation": "Mường",
+      "CMND": 35423512,
+      "passport": 1421414,
+      "FamilyRegister": 5678,
+      "phone": "024-648-3804",
+      "nationality": "Việt Nam",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC",
+        "catchPhrase": "Centralized empowering task-force",
+        "bs": "target end-to-end models"
+      }
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "username": "Cao",
+      "email": "canbo1@gmail.com",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 2,
+      "username": "Hoàng",
+      "email": "canbo2@gmail.com",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": 3,
+      "username": "Vĩnh",
+      "email": "canbo3@gmail.com",
+      "password": "123",
+      "role": 1
+    },
+    {
+      "id": 4,
+      "username": "Hoà",
+      "email": "canbo4@gmail.com",
+      "password": "123",
+      "role": 1
+    },
+    {
+      "id": "5",
+      "email": "canbo5@gmail.com",
+      "username": "Lâm",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "id": "6",
+      "email": "canbo6@gmail.com",
+      "username": "Đức",
+      "password": "123",
+      "role": 0
+    },
+    {
+      "email": "canbo7@gmail.com",
+      "username": "Huy",
+      "password": "123",
+      "role": 0,
+      "id": "koNXjXp"
+    },
+    {
+      "email": "canbo7@gmail.com",
+      "username": "Hải",
+      "password": "123",
+      "role": 0,
+      "id": "Ayu4qhm"
+    },
+    {
+      "email": "test@gmail.com",
+      "username": "caonguyen",
+      "password": "123",
+      "role": 0,
+      "id": "-MSh7XN"
+    },
+    {
+      "email": "test@gmail.com",
+      "username": "caonguyen",
+      "password": "123",
+      "role": 0,
+      "id": "WDfvF_o"
+    },
+    {
+      "email": "test1@gmail.com",
+      "username": "caonguyen",
+      "password": "123",
+      "role": 0,
+      "id": "cZ_apyi"
+    },
+    {
+      "email": "test3@gmail.com",
+      "username": "Hoàng",
+      "password": "123",
+      "role": 0,
+      "id": "kDa0Pas"
+    },
+    {
+      "email": "test123@gmail.com",
+      "username": "caonguyen",
+      "password": "123",
+      "role": 0,
+      "id": "RvdY5z4"
+    }
+  ],
+  "lichhen": [
+    {
+      "Stt": 1,
+      "code": "LH101",
+      "time": "7g30",
+      "name": "Nguyễn Đông Cao",
+      "phone": 84905418161,
+      "content": "Xử lý đất",
+      "date": "10/4/2022",
+      "status": false
+    },
+    {
+      "Stt": 2,
+      "code": "LH101",
+      "time": "7g30",
+      "date": "10/4/2022",
+      "name": "Nguyễn Phước",
+      "phone": 3535124124,
+      "content": "Lấy ý kiến",
+      "status": false
+    },
+    {
+      "Stt": 3,
+      "code": "LH101",
+      "time": "7g30",
+      "date": "10/4/2022",
+      "name": "Nguyễn Đông Cao",
+      "phone": 24124124125,
+      "content": "Lấy ý kiến",
+      "status": true
+    },
+    {
+      "Stt": 4,
+      "code": "LH101",
+      "time": "7g30",
+      "date": "10/4/2022",
+      "name": "Nguyễn Đình Hoà",
+      "phone": 84905418161,
+      "content": "Xử lý đất",
+      "status": true
+    },
+    {
+      "Stt": 5,
+      "code": "LH101",
+      "time": "7g30",
+      "date": "10/4/2022",
+      "name": "Thái Trung Vĩnh",
+      "phone": 1345134124,
+      "content": "Lấy ý kiến",
+      "status": false
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "code": "ABC123",
+      "suggestedDate": "10/03/2022",
+      "name": "Nguyễn Đông Cao",
+      "documents": "Sổ hộ khẩu"
+    },
+    {
+      "id": 2,
+      "code": "XYZ123",
+      "suggestedDate": "11/04/2022",
+      "name": "Nguyễn Trúc",
+      "documents": "Giấy tờ đất"
+    },
+    {
+      "id": 3,
+      "code": "AKM412",
+      "suggestedDate": "14/05/2022",
+      "name": "Nguyễn Viết Đạt",
+      "documents": "Sổ hộ khẩu"
+    },
+    {
+      "id": 4,
+      "code": "KSA451",
+      "suggestedDate": "12/01/2022",
+      "name": "Nguyễn Đình Hoà",
+      "documents": "Giấy tờ đất"
+    },
+    {
+      "id": 5,
+      "code": "KSM412",
+      "suggestedDate": "09/02/2022",
+      "name": "Nguyễn Phước",
+      "documents": "Giấy đăng ký kết hôn"
+    }
+  ]
+}
