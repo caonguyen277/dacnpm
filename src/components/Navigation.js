@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useNavigate,useLocation  } from "react-router-dom";
+import { NavLink, useNavigate  } from "react-router-dom";
 import "../css/Navigation.css";
 import { isAuthenticated, signout } from "./user/apiCore";
 const Navigation = () => {
-  const location = useLocation();
+  // const location = useLocation();
   const navigate = useNavigate();
   const [user, setUser] = useState({});
   useEffect(() => {
-    setUser({ ...isAuthenticated() });
+    setUser({ ...isAuthenticated().user });
   }, []);
-  const singOut = () => {
+  const signOut = () => {
     signout();
   };
   return (
@@ -30,14 +30,14 @@ const Navigation = () => {
         </div>
 
         <div>
-          {isAuthenticated() ? (
+          {isAuthenticated().user ? (
             <>
               <h4>
-                Xin chào cán bộ <span>{isAuthenticated().username}</span> !
+                Xin chào cán bộ <span>{isAuthenticated().user.name}</span> !
               </h4>
               <NavLink
               
-                onClick={() => singOut()}
+                onClick={() => signOut()}
                 exact
                 to="/"
                 className="btn btn-primary"
@@ -60,7 +60,7 @@ const Navigation = () => {
       </div>
       <nav>
         <ul className="nav-bar-link">
-          {!isAuthenticated() && (
+          {!isAuthenticated().user && (
             <>
               <li>
                 <NavLink  exact to="/">
@@ -74,7 +74,7 @@ const Navigation = () => {
               </li>
             </>
           )}
-          {isAuthenticated() && isAuthenticated().role === 0 && (
+          {isAuthenticated().user && isAuthenticated().user.role === 1 && (
             <>
               <li>
                 <NavLink exact to="/">
@@ -98,7 +98,7 @@ const Navigation = () => {
               </li>
             </>
           )}
-          {isAuthenticated() && isAuthenticated().role === 1 && (
+          {isAuthenticated().user && isAuthenticated().user.role === 2 && (
             <>
               <li>
                 <NavLink exact to="/">

@@ -2,7 +2,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router";
-import { authenticate } from "./user/apiCore";
+import { authenticate, } from "./user/apiCore";
+import { apiLogin, } from "./API";
 const Login = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -15,19 +16,21 @@ const Login = () => {
     setPassword(e.target.value);
   };
   useEffect(() => {
-    loadData();
+    // loadData();
   }, []);
-  async function loadData() {
-    const data = await axios.get("http://localhost:3003/account");
-    setAccount(data.data);
-  }
-  const handleSubmit = (e) => {
+  // async function loadData() {
+  //   const data = await axios.get("http://localhost:3003/account");
+  //   setAccount(data.data);
+  // }
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const acc = account.find((obj) => {
-      return obj.email === email && obj.password === password;
-    });
-    if (acc) {
-      authenticate(acc);
+    // const acc = account.find((obj) => {
+    //   return obj.email === email && obj.password === password;
+    // });
+    const acc = {email: email, password : password};
+    const data = await apiLogin(acc);
+    if (data) {
+      authenticate(data);
       navigate("/Home", { replace: true });
     }else{
       alert("Tài khoản sai!");

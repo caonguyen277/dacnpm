@@ -5,6 +5,7 @@ import "../css/Home.css";
 import {Table, Form, Row, Col } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 import ModalUserInfo from "./ModalUserInfo";
+import { apiLoadUsers } from "./API";
 const Home = () => {
   const [users, setUser] = useState([]);
   const [obj, setObj] = useState({
@@ -17,9 +18,9 @@ const Home = () => {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("http://localhost:3003/users");
-    setUser(result.data.reverse());
-  };
+    const data = await apiLoadUsers();
+    setUser(data.reverse());
+  }
 
   const handleChangeName = (e) => {
     setObj({
@@ -52,12 +53,12 @@ const Home = () => {
                     onChange={(e) => handleChangeName(e)}
                     aria-label="Default select example"
                   >
-                    <option>Tất cả</option>
+                    {/* <option>Tất cả</option>
                     {users.map((user, index) => (
                       <option key={index} value={user.name}>
                         {user.name}
-                      </option>
-                    ))}
+                      </option> */}
+                    {/* ))} */}
                   </Form.Select>
                 </Col>
               </Row>
@@ -73,12 +74,12 @@ const Home = () => {
                     onChange={(e) => handleChangeAddress(e)}
                     aria-label="Default select example"
                   >
-                    <option>Tất cả</option>
+                    {/* <option>Tất cả</option>
                     {users.map((user, index) => (
                       <option key={index} value={user.nation}>
                         {user.nation}
                       </option>
-                    ))}
+                    ))} */}
                   </Form.Select>
                 </Col>
               </Row>
@@ -112,10 +113,10 @@ const Home = () => {
                   <tr>
                     <th>#</th>
                     <th>Name</th>
-                    <th>User Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Action</th>
+                    <th>CMND</th>
+                    <th>Giới Tính</th>
+                    <th>Ngày Sinh</th>
+                    <th>Chi Tiết</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -123,9 +124,9 @@ const Home = () => {
                     <tr key={index}>
                       <th>{index + 1}</th>
                       <td>{user.name}</td>
-                      <td>{user.username}</td>
-                      <td>{user.email}</td>
-                      <td>{user.phone}</td>
+                      <td>{user.cmnd}</td>
+                      <td>{user.sex}</td>
+                      <th>{user.date.slice(0,10)}</th>
                       <td>
                         <NavLink
                           to={`user/${user.id}`}

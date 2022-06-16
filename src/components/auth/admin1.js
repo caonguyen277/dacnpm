@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 import { isAuthenticated } from "../user/apiCore";
 
 const Admin1 = ({ children }) => {
-    return isAuthenticated()?.role === 0
+    return isAuthenticated()?.user.role === 1
       ? children
       : <Navigate to='/signin' replace />;
   };

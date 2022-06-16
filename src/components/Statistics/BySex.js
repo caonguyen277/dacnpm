@@ -36,15 +36,7 @@ const BySex = () => {
             <h1 style={{ textAlign: "center" }}>Thống kê theo giới tính</h1>
             <Row>
               <Col>
-              <Row>
-                  <Col>
-                    <span>Thời gian từ:</span>
-                    <DatePicker onChange={onChange} />
-                  </Col>
-                </Row>
-                </Col>
-              <Col>
-              <Row>
+                <Row>
                   <Col>
                     <span>Thời gian từ:</span>
                     <DatePicker onChange={onChange} />
@@ -55,6 +47,7 @@ const BySex = () => {
                   </Col>
                 </Row>
               </Col>
+              <Col></Col>
             </Row>
             <Barchart></Barchart>
             <Row>
