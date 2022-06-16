@@ -44,10 +44,10 @@ const Home = () => {
           <div style={{ textAlign: "center" }} className="row mb-2">
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <Row>
-                <Col sm={2}>
+                <Col sm={3}>
                   <Form.Label>Huyện</Form.Label>
                 </Col>
-                <Col sm={10}>
+                <Col sm={9}>
                   <Form.Select
                     onChange={(e) => handleChangeName(e)}
                     aria-label="Default select example"
@@ -65,10 +65,10 @@ const Home = () => {
 
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <Row>
-                <Col sm={1}>
+                <Col sm={2}>
                   <Form.Label>Xã</Form.Label>
                 </Col>
-                <Col sm={11}>
+                <Col sm={10}>
                   <Form.Select
                     onChange={(e) => handleChangeAddress(e)}
                     aria-label="Default select example"
@@ -87,10 +87,11 @@ const Home = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div>
                 <div>
-                  <span>
+                  <span style ={{padding : "5px"}}>
                     <FaSearch />
                   </span>
                   <input
+                    style ={{padding : "5px"}}
                     onChange={(e) => handleChangeInput(e)}
                     type="search"
                     id="search"

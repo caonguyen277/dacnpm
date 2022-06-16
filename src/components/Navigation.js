@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate,useLocation  } from "react-router-dom";
 import "../css/Navigation.css";
+import "react-bootstrap"
 import { isAuthenticated, signout } from "./user/apiCore";
 const Navigation = () => {
   const location = useLocation();
@@ -24,11 +25,10 @@ const Navigation = () => {
           </div>
 
           <div className="title-word">
-            <h4>Cổng thông tin quốc gia về</h4>
-            <h3>Hồ sơ công dân</h3>
+            <h5>Cổng thông tin quốc gia về</h5>
+            <h4>Hồ sơ công dân</h4>
           </div>
         </div>
-
         <div>
           {isAuthenticated() ? (
             <>

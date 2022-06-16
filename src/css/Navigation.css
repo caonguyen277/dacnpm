@@ -2,9 +2,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #975f5f;
     padding: 10px;
   }
+.header img{
+    /* width: 10%; */
+}
 .nav-bar-link{
     height: 5vh;
     display: flex;
@@ -25,7 +27,7 @@
     padding: 5px 20px;
 }
 img{
-    width: 100px;
+    width: 80px;
 }
 .title-1{
     display: flex;
@@ -33,6 +35,7 @@ img{
     justify-content: center;
 }
 .title-1 h4{
+    
     color: yellow;
 }
 .title-word{
