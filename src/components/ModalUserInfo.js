@@ -45,16 +45,16 @@ const ModalUserInfo = (props) => {
                     <Form.Label>Ngày tháng năm sinh</Form.Label>
                     <Form.Control
                       disabled
-                      value={props.user.birthday}
+                      value={props.user.date.slice(0,10)}
                       type="text"
                       placeholder="Enter email"
                     />
                   </Form.Group>
                   <Form.Group as={Col} className="mb-3">
-                    <Form.Label>Tuổi</Form.Label>
+                    <Form.Label>Giới tính</Form.Label>
                     <Form.Control
                       disabled
-                      value={props.user.age}
+                      value={props.user.sex}
                       type="text"
                       placeholder="Enter email"
                     />
@@ -66,7 +66,7 @@ const ModalUserInfo = (props) => {
                     <Form.Label>Quê quán</Form.Label>
                     <Form.Control
                       disabled
-                      value={props.user.hometown}
+                      value={props.user.country}
                       type="text"
                       placeholder="Enter email"
                     />
@@ -82,7 +82,7 @@ const ModalUserInfo = (props) => {
                     <Form.Label>Dân tộc</Form.Label>
                     <Form.Control
                       disabled
-                      value={props.user.nation}
+                      value={props.user.folk}
                       type="text"
                       placeholder="Enter email"
                     />
@@ -111,20 +111,7 @@ const ModalUserInfo = (props) => {
                     <Form.Label>Chứng minh dân nhân</Form.Label>
                     <Form.Control
                       disabled
-                      value={props.user.CMND}
-                      type="text"
-                      placeholder="Enter email"
-                    />
-                  </Form.Group>
-                  <Form.Group
-                    as={Col}
-                    className="mb-3"
-                    controlId="formBasicEmail"
-                  >
-                    <Form.Label>Hộ chiếu số</Form.Label>
-                    <Form.Control
-                      disabled
-                      value={props.user.passport}
+                      value={props.user.cmnd}
                       type="text"
                       placeholder="Enter email"
                     />
@@ -153,14 +140,14 @@ const ModalUserInfo = (props) => {
             <Modal.Body>
               {props.allUser
                 .filter((el, index) => {
-                  return el.FamilyRegister == props.user.FamilyRegister;
+                  return el.numberHousehold == props.user.numberHousehold;
                 })
                 .map((obj, index) => {
                   return (
                       <Form key={index}>
                         <Row>
                           <Form.Group as={Col} className="mb-3">
-                            <Form.Label>Tên gọi khác</Form.Label>
+                            <Form.Label>Tên</Form.Label>
                             <Form.Control
                               disabled
                               value={obj.name}
@@ -175,16 +162,16 @@ const ModalUserInfo = (props) => {
                             <Form.Label>Ngày tháng năm sinh</Form.Label>
                             <Form.Control
                               disabled
-                              value={obj.birthday}
+                              value={obj.date.slice(0,10)}
                               type="text"
                               placeholder="Enter email"
                             />
                           </Form.Group>
                           <Form.Group as={Col} className="mb-3">
-                            <Form.Label>Tuổi</Form.Label>
+                            <Form.Label>Giới tính</Form.Label>
                             <Form.Control
                               disabled
-                              value={obj.age}
+                              value={obj.sex}
                               type="text"
                               placeholder="Enter email"
                             />
@@ -208,8 +195,8 @@ const ModalUserInfo = (props) => {
                   <th>Lý do</th>
                 </tr>
               </thead>
-              <tbody>
-                {props.user.criminal.map((el,index) => {
+              {/* <tbody>
+                {props.user.TienAnTienSu.map((el,index) => {
                  return ( 
                  <tr key={index}>
                   <td>{el.time}</td>
@@ -218,7 +205,7 @@ const ModalUserInfo = (props) => {
                 </tr>)
                 })}
                 
-              </tbody>
+              </tbody> */}
               </Table>
               </Modal.Body>
           </Tab>
